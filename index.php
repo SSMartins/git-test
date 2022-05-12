@@ -13,3 +13,4 @@ $al->direBonjour();
 $sylvie -> direBonjour();
 $sylvie-> prendRDV ($directeur, $al);
 $al->afficherRDV();
+
