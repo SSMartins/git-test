@@ -1,0 +1,82 @@
+GIT 
+
+Installer Git Bash
+https://devnetx.hd.free.fr/devnetx/formation/
+
+Creer count Git Hub
+
+//Faire une clé sur cheque ordinateur e quans on laisse de utiliser cette ordinateur on supprime la clé
+Sur le bureau click le bouton droit du sourir et ouvrir Git Bash Here
+//creer clé 
+-> ssh-keygen -t rsa -b 2048
+-> enter
+-> enter
+-> enter
+
+Ce PC > Disque local (:C) > Utilisateurs > WEBFORCE3 > .ssh > id_rsa.pub (ouvrir avec bloc-notes)
+copier la clé
+sur Git Hub > profil > settings > Access (SSH and GPG keys) > New SSH e coller la clé
+
+/************************************************************
+Difference entre windows et linux
+sur Terminal invite de commandes - windows
+
+$ cd.. //permettre de revenir au fichier avant
+$ cd.. //fichier C:
+$ dir  //liste de fichier do dossier
+
+sur Terminal Git Bash - linux
+//il s'ouvre directement sur le androit que on a ouvri
+$ cd c:
+$ ls  //liste de fichier do dossier
+$ ls -la //liste detailles
+
+
+sur Terminal invite de commandes - windows
+
+$ cd user
+$ cd webforce3
+$ cd desktop
+//$ cd dir
+$ cd nom_fichier
+
+sur Terminal Git Bash - linux
+$ ~/desktop/nom_fichier
+
+/***************************************************************/
+
+
+Projet : git-test
+
+Sur Terminal Git Bash
+$ git congig --global user.name "SSMartins"
+$ git config --global user.email martins.s.susana@gmail.com
+
+
+Sur github creer un nouveau repository 
+
+Sur Terminal Git Bash creer un repository 
+suivi les instructons "…or create a new repository on the command line"
+echo "# git-test" >> README.md
+$git init // indique que le fichier m'appartient
+$ git add . //ajouter touts le dossier modifier dans la zone staging (attend)
+$ git commit -m "premier commit" //Intregre tout qui à dans la zone staging est integre dans le projet (LOCAL)
+
+/$ -main //renommer le brancge MASTER en main
+
+
+Creer le lien entre les deux echo repository
+$ git remote add origin https://github.com/SSMartins/git-test.git  //define l'adresse de notre repos distant
+
+
+
+index.php 
+class employe proprietes: nom prenom age 
+methode empploye dire Bonjour j'appele nom prenom
+class fille_employer : secretaire
+class fille_employer : manager
+
+
+/*********************************************************************/
+
+$ git config --list  //
