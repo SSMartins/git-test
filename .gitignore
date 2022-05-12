@@ -14,7 +14,7 @@
 #dossier interdits
 *.assets/notes
 #fichier interdits
-git.txt
+notes_git.txt
 
 # Local History for Visual Studio Code
 .history/
