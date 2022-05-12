@@ -14,7 +14,7 @@ class Employe {
     }
     
     public function direBonjour(){
-        echo "Bonjour je m'appele $this->nom $this->prenom";
+        echo "Bonjour je m'appele $this->nom $this->prenom. <br>";
     }
 
     public function getNom(){ //acceder une propriete privee
