@@ -12,7 +12,7 @@
 !.vscode/*.code-snippets
 
 #dossier interdits
-*.assets/notes
+/assets/notes
 #fichier interdits
 notes_git.txt
 
