@@ -101,4 +101,12 @@ $ git status
 $ git reflog //montre tous le commits de + recent au +ancien de notre repos local
 $ git push -u origin main //origin signifie
 
+sur VSC
+creer le dossier:
+assets
+    css 
+    img
+    js 
+    notes 
 
+ecrir sur le fichier .gitignore -> 
